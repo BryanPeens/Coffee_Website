@@ -1,0 +1,8 @@
+{
+    "name": "Adient_Coffee_Website",
+    "version": "1.0.0",
+    "keywords": ["util", "functional", "server", "client", "browser"],
+    "author": "Bryan",
+    "contributors": [],
+    "dependencies": {}
+}
