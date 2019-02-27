@@ -1,7 +1,5 @@
 /*https://bryanpeens.github.io/Coffee_Website/public_html/index.html*/
 
-
-
 /**{
     border: 1px solid red;
 }*/
@@ -33,10 +31,20 @@ body{
 }
 
 .box1{
-    height: 750px;
+    height: 600px;
     width: 100%;
-    background-image: url(images/cof1.jpg);
+    /*background-image: url(Logos/logo_transparent.png);*/
+    background-size: 100%;
+    background-color: whitesmoke;
     background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+.box1{
+    height: 600px;
+    width: 100%;
+    /*background-image: url(Logos/logo_transparent.png);*/
     background-position: center;
     display: table;
     background-attachment: fixed;
@@ -54,7 +62,8 @@ body{
 .box3{
     height: 400px;
     width: 100%;
-    background-image: url(images/cof1.jpg);
+    /*background-image: url(images/cof1.jpg);*/
+    background-color: whitesmoke;;
     background-size: cover;
     background-position: center;
     display: table;
@@ -84,7 +93,7 @@ h1{
     position: relative;
 }
 .bottomH1{
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     font-family: sans-serif;
     font-size: 58px;
     color: black;
@@ -102,6 +111,17 @@ h2{
     text-align: center;
     vertical-align: middle;
 }
+/*.textDiv{
+    font-family: sans-serif;
+    font-size: 28px;
+    color: black;
+    margin: auto;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    border: 1px solid red;
+}*/
 
 .box > .front{
     position: absolute;
@@ -443,3 +463,4 @@ h2{
 }
 
 
+/****************************************************************************top navigation menu**/
